@@ -1,0 +1,103 @@
+body {
+  background-color: #e5e5e5; 
+}
+
+.img-circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 10px;
+    margin: 2px 0px 0px 500px;
+}
+.centerbox {
+  margin: -50px 0px 0px 0px;
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.skills {
+  background-color: orange;  
+  padding-left: 5px;
+  margin: 3px 0px 3px 0px;
+  color: white;
+}
+
+.years {
+  float: left;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+
+.years1 {
+  float: left;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+
+#educacion {
+  background: #e5e5e5;
+  border-radius: 5px;
+  width: 90%;
+  height: 5em;
+  padding: 3px 2px 2px 10px;
+  float:right;
+}
+
+#educacion:before {
+    content: "";
+    position: absolute;
+    top: 26%;
+    margin-left: -38px;
+    border: solid 15px transparent;
+    border-right-color: #e5e5e5;
+    z-index: 1;
+}
+
+#educacion1 {
+  background: #e5e5e5;
+  border-radius: 5px;
+  width: 90%;
+  height: 5em;
+  padding: 3px 2px 2px 10px;
+  float:right;
+}
+
+#educacion1:before {
+    content: "";
+    position: absolute;
+    top: 64%;
+    margin-left: -38px;
+    border: solid 15px transparent;
+    border-right-color: #e5e5e5;
+    z-index: 1;
+}
+
+.img2 {
+  float: right;
+}
+
+.spanish {
+  margin: 0px 0px -15px 0px;
+}
+
+.english {
+  margin: -15px 0px -15px 0px;
+}
+
+.hobbies {
+  background-color: purple;  
+  padding-left: 5px;
+  margin: 3px 0px 3px 0px;
+  color: white;
+  display: inline-block;
+}
+
+.ending {
+  float: right;
+  margin: -10px 0px 1px 0px;
+}
